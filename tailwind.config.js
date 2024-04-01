@@ -14,7 +14,7 @@ module.exports = {
         elipse: '#5FD395'
       }, 
       fontSize: {
-        besar: '53.6px',
+        besar: '51.6px',
         medium: '20px'
       }
     },

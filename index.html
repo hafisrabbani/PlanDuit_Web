@@ -1,67 +1,160 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style\output.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://db.onlinewebfonts.com/c/a285c11ea4e5d53dcf4880bc0ba67d00?family=Outlines" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/a285c11ea4e5d53dcf4880bc0ba67d00?family=Outlines" rel="stylesheet">
 </head>
 
 <body class="flex justify-center font-poppins">
-    <section class="flex-auto  bg-banner">
-        <!-- navbar -->
-        <nav class="flex justify-between w-[1440px]">
-
+    <section id="beranda" class="flex-auto bg-banner">
+        <nav class="flex justify-between">
             <div class="">
                 <img src="assets/Group 3.svg" alt="" width="228.08px" height="69px" class="p-3 m-3">
             </div>
-
             <div class="bg-navbar text-hitam font-bold p-8 mr-10 ml-1 m-9 mx-12 py-13 top-5 px-7 rounded-full max-w-1/3 w-[582px] h-[69px] justify-end flex items-center hover:*:text-slate-300">
-                <a href="#" class="flex-auto items-start p-3 m-6">Beranda</a>
-                <a href="#" class="flex-auto items-start p-3 m-6">Download</a>
-                <a href="#" class="flex-auto items-start p-3 m-6">Fitur</a>
-                <a href="#" class="flex-auto items-start p-3 m-6">Artikel</a>
-            </div>     
+                <a href="#beranda" class="flex-auto items-start p-3 m-6">Beranda</a>
+                <a href="#download" class="flex-auto items-start p-3 m-6">Download</a>
+                <a href="#fitur" class="flex-auto items-start p-3 m-6">Fitur</a>
+                <a href="#deskripsi" class="flex-auto items-start p-3 m-6">Artikel</a>
+            </div>
         </nav>
-
         <div class="p-8 m-2 top-4 grid grid-cols-4 justify-between items-start">
-    <div class="col-span-3 justify-start flex flex-col items-start">
-        <div class="order-1">
-            <p class="font-bold font-poppins text-besar justify-start">
-                Atur<br>
-                Perencanaan<br>
-                Keuanganmu
-            </p>
-        </div>
-        <div class="order-2 mb-2"> 
-            <div class="flex items-center">
-                <p class="font-bold font-poppins text-besar">
-                    Bersama 
-                </p>  
-                <img src="assets/planDuit 3.svg" alt="" width="225.45px" height="62px" class="ml-2 p-3">
+            <div class="col-span-3 justify-start flex flex-col items-start">
+                <div class="order-1">
+                    <p class="font-bold font-poppins text-besar justify-start">
+                        Atur<br> Perencanaan<br> Keuanganmu
+                    </p>
+                </div>
+                <div class="order-2 mb-2">
+                    <div class="flex items-center">
+                        <p class="font-bold font-poppins text-besar">
+                            Bersama
+                        </p>
+                        <img src="assets/planDuit 3.svg" alt="" width="225.45px" height="62px" class="ml-2 p-3">
+                    </div>
+                </div>
+                <div class="order-3" id="scrollTrigger">
+                    <p class="text-medium font-poppins mt-2 mb-8">Aplikasi PlanDuit membantu anda merencanakan <br> investasi dan menghitung keuangan serta zakat <br> dengan mudah.</p>
+                </div>
+                <div class="order-4">
+                    <a href="#"><img src="assets/google play 1.svg" alt=""> </a>
+                </div>
+            </div>
+            <div class="relative p-4 m-3 -inset-5 -left-20 top-3 -bottom-8">
+                <div class="absolute -inset-4 -top-9 -left-32 w-[333.33px] h-[302.82px] bg-green-300 rounded-full overflow-hidden"></div>
+                <div class="absolute top-0 left-0 right-0 bottom-0 ">
+                    <img src="assets\Group 4.svg" alt="" width="467.93px" height="528.08px" class="absolute top-0 left-0 ">
+                </div>
             </div>
         </div>
-        <div class="order-3">
-            <p class="text-medium font-poppins mt-2 mb-8">Aplikasi PlanDuit membantu anda  merencanakan <br>
-                investasi dan menghitung keuangan serta zakat <br> dengan mudah.</p>
-        </div>
-        <div class="order-4">
-            <a href="#"><img src="assets/google play 1.svg" alt="" > </a>
-        </div>
-    </div>
-    <div class="relative p-4 m-3 -inset-5 -left-20 top-3 -bottom-8">
-        <div class="absolute -inset-4 -top-9 -left-32 w-[333.33px] h-[302.82px] bg-green-300 rounded-full overflow-hidden"></div>
-        <div class="absolute top-0 left-0 right-0 bottom-0 ">
-            <img src="assets\Group 4.svg" alt="" width="467.93px" height="528.08px" class="absolute top-0 left-0">
-        </div>
-    </div>  
-</div>
+
+        <img src="assets/wave.svg" alt="">
+        <div class="h-36 bg-white max-w-full"></div>
+        
+
+        <section id="deskripsi" class="grid grid-cols-1 gap-8 bg-banner">
+            <div class="col-span-1">
+                <div class="grid grid-cols-2">
+                    <div class="relative p-4 m-3 col-span-1">
+                        <div class="flex justify-center ">
+                            <img src="assets/Group 2.svg" alt="" width="336px" height="356.68px">
+                        </div>
+                    </div>
+                    <div class="ml-5 mr-4 p-8 m-6 left-4 right-8 flex flex-col items-start col-span-1">
+                        <div class="flex items-center">
+                            <p class="font-bold font-poppins text-[64px]">
+                                Tentang
+                            </p>
+                            <img src="assets/planDuit tulisan 1.svg" alt="" width="287px" height="68px" class="ml-2 p-3">
+                        </div>
+                        <p class="text-[16px] font-poppins mt-2 mb-8">PlanDuit merupakan sebuah aplikasi yang dirancang untuk membantu anda mengatasi permasalahan seputar pengelolaan keuangan, terutama dalam hal investasi, zakat, dan tabungan. 
+                            Dengan metode perhitungan yang didasarkan pada penghasilan anda, PlanDuit dapat merencanakan investasi Anda, menghitung zakat mal dan penghasilan serta mengalokasikan tabungan Anda secara cerdas. 
+                            Sehingga pengeluaran anda akan menjadi lebih teratur dan lebih efektif. Jadi anda tidak perlu khawatir lagi tentang pengeluaran anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="h-36 bg-white max-w-full"></div>
+
+        <section id="download" class="relative p-8 m-5 ">
+            <div class="flex justify-center">
+                <div class="flex justify-center">
+                    <h1 class="font-bold text-center font-poppins text-besar justify-start order-1">Tersedia di Versi Android</h1>
+                </div>
+            </div>
+                <div class="flex justify-center p-8 m-4 order-2">
+                    <a href="#"><img src="assets/google play 2.svg" alt="" width="" height="528.08px"></a>   
+                </div>
+            <div class="relative p-8 m-3 inset-0 left-6 -top-12 -bottom-8 order-3 justify-center">
+                <div class="centered-content">
+                    <img src="assets/Group 12.svg" alt="" width="" height="528.08px">
+                </div>
+            </div>
+        </section>
+
+        <section id="fitur" class="bg-white font-poppins">
+            <div class="flex justify-center">
+                <h1 class="p-8 m-5 font-bold text-center text-besar justify-start">Fitur yang Tersedia</h1>
+            </div>
+            
+            <div class="grid grid-cols-3 justify-items-center place-items-center">
+                <div class="p-18 m-12 w-[375px] h-[555px] max-w-sm rounded-3xl overflow-hidden bg-banner shadow-lg relative">
+                    <div class="flex justify-center items-start h-full">
+                        <img class="p-12 m-6" src="/assets/investasi.svg" width="" height="" alt="investasi">
+                    </div>
+                    <div class="px-6 py-4 absolute bottom-0 w-full text-center">
+                        <div class="font-medium text-[33px] mb-2">kalkulator Investasi</div>
+                        <p class="text-gray-700">
+                            Fitur aplikasi kalkulator investasi adalah alat yang membantu pengguna menghitung potensi pertumbuhan dana investasi mereka dalam jangka waktu tertentu
+                        </p>
+                    </div>
+                </div>
+                <div class="p-18 m-12 w-[375px] h-[555px] max-w-sm rounded-3xl overflow-hidden bg-banner shadow-lg relative">
+                    <div class="flex justify-center items-start h-full">
+                        <img class="p-12 m-6" src="/assets/zakat.svg" width="" height="" alt="investasi">
+                    </div>
+                    <div class="px-6 py-4 absolute bottom-0 w-full text-center">
+                        <div class="font-medium text-[33px] mb-2">kalkulator Zakat</div>
+                        <p class="text-gray-700">
+                            Fitur aplikasi kalkulator zakat adalah alat yang memudahkan pengguna untuk menghitung jumlah zakat yang harus mereka bayarkan sesuai dengan ketentuan dalam agama Islam.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-18 m-12 w-[375px] h-[555px] max-w-sm rounded-3xl overflow-hidden bg-banner shadow-lg relative">
+                    <div class="flex justify-center items-start h-full">
+                        <img class="p-12 m-6" src="/assets/artikel.svg" width="" height="" alt="investasi">
+                    </div>
+                    <div class="px-6 py-4 absolute bottom-0 w-full text-center">
+                        <div class="font-medium text-[33px] mb-2">Artikel Tips & Trick</div>
+                        <p class="text-gray-700">
+                            Fitur aplikasi tips dan trik adalah sumber informasi yang menyediakan panduan praktis dan strategis untuk membantu pengguna dalam mengelola investasi mereka dengan lebih efektif.
+                        </p>
+                    </div>
+                </div>
+            </div>           
+        </section>
 
 
-</section>
 
+            <footer class="flex p-4 m-2">   
+                <div class="flex-auto">
+                <p class="font-semibold">@Copyright</p>
+                </div> 
+                <p class="place-self-end font-semibold" style="justify-self: end;">Kelompok A4 | Made With </p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                  </svg>                  
+            </footer>
+
+        
+
+    </section>
 </body>
+
 </html>
