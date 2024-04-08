@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -12,12 +12,13 @@
 </head>
 
 <body class="flex justify-center font-poppins">
+<!-- <div class="absolute w-[333.33px] h-[302.82px] bg-pale_blue opacity-40 rounded-full overflow-hidden -top-12 right-0 transform translate-x-1/4 -translate-y-1/4"></div> -->
     <section id="beranda" class="flex-auto bg-banner">
-        <nav class="flex justify-between">
+        <nav class="relative flex justify-between md: max-lg:flex">
             <div class="">
-                <img src="assets/Group 3.svg" alt="" width="228.08px" height="69px" class="p-3 m-3">
+                <img src="assets/Group 3.svg" alt="" width="228.08px" height="69px" class="p-3 m-3 sm:object-cover">
             </div>
-            <div class="bg-navbar text-hitam font-bold p-8 mr-10 ml-1 m-9 mx-12 py-13 top-5 px-7 rounded-full max-w-1/3 w-[582px] h-[69px] justify-end flex items-center hover:*:text-slate-300">
+            <div class="bg-navbar text-hitam font-bold p-8 mr-10 ml-1 m-9 mx-12 py-13 top-5 px-7 rounded-full max-w-1/3 w-[582px] h-[69px] justify-end flex items-center hover:*:text-slate-300 sm:max-w-screen-sm max-h-screen">
                 <a href="#beranda" class="flex-auto items-start p-3 m-6">Beranda</a>
                 <a href="#download" class="flex-auto items-start p-3 m-6">Download</a>
                 <a href="#fitur" class="flex-auto items-start p-3 m-6">Fitur</a>
@@ -58,22 +59,22 @@
         <div class="h-36 bg-white max-w-full"></div>
         
 
-        <section id="deskripsi" class="grid grid-cols-1 gap-8 bg-banner">
-            <div class="col-span-1">
-                <div class="grid grid-cols-2">
+        <section id="deskripsi" class="grid grid-cols-1 gap-8 bg-white">
+            <div class="container col-span-1">
+                <div class="grid grid-cols-2 place-items-center">
                     <div class="relative p-4 m-3 col-span-1">
-                        <div class="flex justify-center ">
+                        <div class="flex justify-end ">
                             <img src="assets/Group 2.svg" alt="" width="336px" height="356.68px">
                         </div>
                     </div>
-                    <div class="ml-5 mr-4 p-8 m-6 left-4 right-8 flex flex-col items-start col-span-1">
+                    <div class="ml-9 mr-8 p-8 m-6 mb-4 mt-4 left-4 right-8 flex flex-col place-content-end col-span-1">
                         <div class="flex items-center">
                             <p class="font-bold font-poppins text-[64px]">
                                 Tentang
                             </p>
-                            <img src="assets/planDuit tulisan 1.svg" alt="" width="287px" height="68px" class="ml-2 p-3">
+                            <img src="assets/planDuit tulisan 1.svg" alt="" width="287px" height="68px" class="ml-2 mr-4 mt-4 m-2 p-3">
                         </div>
-                        <p class="text-[16px] font-poppins mt-2 mb-8">PlanDuit merupakan sebuah aplikasi yang dirancang untuk membantu anda mengatasi permasalahan seputar pengelolaan keuangan, terutama dalam hal investasi, zakat, dan tabungan. 
+                        <p class="text-[16px] font-poppins mt-4 mb-8">PlanDuit merupakan sebuah aplikasi yang dirancang untuk membantu anda mengatasi permasalahan seputar pengelolaan keuangan, terutama dalam hal investasi, zakat, dan tabungan. 
                             Dengan metode perhitungan yang didasarkan pada penghasilan anda, PlanDuit dapat merencanakan investasi Anda, menghitung zakat mal dan penghasilan serta mengalokasikan tabungan Anda secara cerdas. 
                             Sehingga pengeluaran anda akan menjadi lebih teratur dan lebih efektif. Jadi anda tidak perlu khawatir lagi tentang pengeluaran anda.</p>
                     </div>

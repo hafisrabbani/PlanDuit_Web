@@ -11,7 +11,8 @@ module.exports = {
         navbar: '#5AD593',
         banner: '#C6FDAD',
         hitam: '#1A282B',
-        elipse: '#5FD395'
+        elipse: '#5FD395',
+        pale_blue: '#A1F0E7'
       }, 
       fontSize: {
         besar: '51.6px',
